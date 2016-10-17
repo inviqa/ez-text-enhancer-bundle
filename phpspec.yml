@@ -1,0 +1,4 @@
+suites:
+  ez_text_enhancer_bundle_suite:
+    namespace: Inviqa\EzTextEnhancerBundle
+    psr4_prefix: Inviqa\EzTextEnhancerBundle

@@ -1,0 +1,24 @@
+{
+    "name": "inviqa/ez-text-enhancer-bundle",
+    "description": "Provides twig helpers to render eZ RichTexts.",
+    "license": "Private",
+    "type": "project",
+    "repositories": [
+        { "type": "composer", "url": "https://updates.ez.no/bul" }
+    ],
+    "autoload": {
+        "psr-4": {"Inviqa\\EzTextEnhancerBundle\\": "src"}
+    },
+    "autoload-dev": {
+        "psr-4": {"spec\\Inviqa\\EzTextEnhancerBundle\\": "spec"}
+    },
+    "require": {
+        "php": "~5.5|~7.0",
+        "symfony/framework-bundle": "^2.8",
+        "symfony/twig-bundle": "^2.8",
+        "ezsystems/ezpublish-kernel": "^6.5"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "^3.1"
+    }
+}
