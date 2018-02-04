@@ -2,7 +2,7 @@
     "name": "inviqa/ez-text-enhancer-bundle",
     "description": "Provides twig helpers to render eZ RichTexts.",
     "license": "Private",
-    "type": "project",
+    "type": "ezplatform-bundle",
     "repositories": [
         { "type": "composer", "url": "https://updates.ez.no/bul" }
     ],
